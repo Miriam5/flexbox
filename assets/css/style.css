@@ -1,0 +1,172 @@
+* 	{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	outline: none;
+}
+/* global style */
+img {
+	widht: 300px;
+	height: 200px;
+
+}
+button{
+	padding: 10px;
+	border-radius: 4px;
+	border:none;
+	background-color: red;
+	color: white;
+	width: 70px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+	}
+
+/* general style*/
+header, body, footer{
+	width: 100%;
+	margin-top: 20px;
+}
+
+header{
+	
+	border: 1px solid green;
+	height: 100px;
+	text-align: center;
+	
+}
+input{
+	width: 90%;
+	padding; 10px;
+	margin: 10px;
+	border: 1px solid;
+	border-radius: 4px;
+}
+
+section {
+	
+	border: 1px solid red;
+	height: 400px;
+}
+
+
+
+/* first section in body */
+.about-me{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#about-me div {
+	width: 100px;
+	height: 200px;
+	border: 1px solid rgba(0,0,0,0.5);
+	margin: 10px;
+}
+
+.one {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+/*second section in the body*/
+.more-info{
+	background-color: grey;
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.info-image{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+.info-image img{
+	width: 500px;
+}
+
+/*This is the third section*/
+.send-shipping{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.send-shipping div {
+	
+	background-color: green;
+	width: 50%;
+	height: 300px;
+	margin: 10px;
+}
+
+.second {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+/*footer, how to pin it to the bottom?*/
+footer{
+	border: 1px solid orange;
+	height: 200px;
+	position: absolute;
+	bottom: 0;
+}
+
+quote{
+	display: flex;
+	justify-content: space-between;
+
+}
+.quote div{
+	width: 300px;
+	height: 300px
+	background-color: green;
+}
+
+.send-shipping .quote{
+	width: 45%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.send-shipping.not-quote{
+	width: 55%;
+}
+/* fifth section of body */
+.send-shipping.input-data {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border: none;
+
+}
+.send-shipping.input-data div{
+	border: none;
+}
+
+.left-side {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+
+}
+.right-side	{
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
